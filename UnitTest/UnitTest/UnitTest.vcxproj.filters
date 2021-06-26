@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="TestEnvironment.cpp">
+      <Filter>common\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCommon.cpp">
+      <Filter>common\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="TestTracker.cpp">
+      <Filter>TestCase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCompare.cpp">
+      <Filter>common\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TestLive.cpp">
+      <Filter>TestCase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestMultiTracker.cpp">
+      <Filter>TestCase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoTest.cpp">
+      <Filter>TestCase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestFaceCropImage.cpp">
+      <Filter>TestCase\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TestEnvironment.h">
+      <Filter>common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestCommon.h">
+      <Filter>common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestTracker.h">
+      <Filter>TestCase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestConst.h">
+      <Filter>common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestCompare.h">
+      <Filter>common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestLive.h">
+      <Filter>TestCase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestMultiTracker.h">
+      <Filter>TestCase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoTest.h">
+      <Filter>TestCase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestFaceCropImage.h">
+      <Filter>TestCase\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{18dce4fd-4676-4373-88b6-dd5e094e2a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestCase">
+      <UniqueIdentifier>{debc3819-5d8c-4cc6-900b-156dd9be672f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestCase\Header Files">
+      <UniqueIdentifier>{f64c1970-cf6d-4196-aab7-0ad736ac7e09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestCase\Source Files">
+      <UniqueIdentifier>{a96901dd-16f4-4ec1-814d-6da047d6b1f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Header Files">
+      <UniqueIdentifier>{6dc609d3-65a2-4711-9e73-250cf4ab8785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Source">
+      <UniqueIdentifier>{be533de5-3b65-4a43-a4fa-b077260fd04b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
